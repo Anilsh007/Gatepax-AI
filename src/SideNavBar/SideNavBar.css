@@ -29,6 +29,7 @@
 	display: flex;
 	align-items: center;
 	padding: 2vh;
+	margin-bottom: 1vh;
 }
 
 .nav-heading img {
@@ -113,8 +114,8 @@
 }
 
 .menu-item svg {
-	width: 1.6vw;
-	height: 1.6vw;
+	width: 1vw;
+	height: 1vw;
 }
 
 .menu-item span {
