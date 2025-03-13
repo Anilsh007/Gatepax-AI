@@ -34,7 +34,7 @@ function Integrations() {
 
         setTimeout(() => {
             toast(toggleStates[name] ? `${name} Disabled` : `${name} Enabled`, {
-                position: "top-center",
+                position: "bottom-right",
                 autoClose: 2000,
                 type: toggleStates[name] ? "warning" : "success",
             });
@@ -43,7 +43,7 @@ function Integrations() {
 
     return (
         <>
-            <h3 className="page-head">Integrations</h3>
+            <h3 className="page-head">Add Integrations</h3>
             <ToastContainer />
             <div className="invite-members"><button>+ Invite members</button></div>
             
@@ -63,7 +63,7 @@ function Integrations() {
                                 </label>
                             </div>
                             <p className="integrations-head">{product.Name}</p>
-                            <p>{product.Text}</p>
+                            <p className="integrations-text">{product.Text}</p>
                         </div>
                     </div>
                 ))}

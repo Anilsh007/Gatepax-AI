@@ -14,9 +14,9 @@ body {
 
 .main-wrapper {
   position: absolute;
-  width: 78vw;
-  top: 2vh;
-  right: 1vw;
+  width: 77vw;
+  top: 14.5vh;
+  right: 2vw;
 }
 
 /* Page Heading */
@@ -35,10 +35,21 @@ body {
   }
 
   .page-head {
-    font-size: 3.5vw;
+    font-size: 5.6vw;
   }
 
-  p{
+  p {
     font-size: 16px !important;
+  }
+
+  /* for toast */
+  .Toastify__toast-theme--light {
+    font-size: 14px;
+  }
+
+  .Toastify__close-button>svg {
+    height: 25px;
+    width: 25px;
+    margin-top: 16px;
   }
 }

@@ -154,24 +154,25 @@
 .notification-icon {
 	position: absolute;
 	right: 2vw;
-	top: 2vh;
+	top: 3.4vh;
 	display: flex;
 	align-items: center;
 	z-index: 9;
 }
 
 .notification-icon svg {
-	width: 2vw;
-	height: 2vw;
+	width: 1.7vw;
+	height: 1.7vw;
+	color: #006FB9;
 }
 
 .logged-user {
 	background-color: #006FB9;
-	padding: 0.6vh 0.66vw;
+	padding: 0.12vh 0.44vw;
 	color: #ffffff;
 	border-radius: 10vw;
 	line-height: normal;
-	margin: 0;
+	margin-left: 0.7vw;
 }
 
 /* ====== Responsive Adjustments for Mobile (max-width: 768px) ====== */
@@ -179,27 +180,27 @@
 
 	/* Full-Width Sidebar in Mobile */
 	.side-nav-container {
-		width: 35vw;
+		width: 65vw;
 	}
 
 	.side-nav-container-NX {
 		width: 8vw;
-		left: -8vw;
+		left: -23vw;
 	}
 
 	/* Show Hamburger Menu */
 	.hamburger {
 		display: block;
-		left: 32vw;
+		left: 60.9vw;
 	}
 
 	.hamburger-out {
-		left: 4.8vw;
+		left: 21vw;
 	}
 
 	.hamburger svg {
-		height: 5vw;
-		width: 5vw;
+		height: 6vw;
+		width: 6vw;
 	}
 
 	.nav-heading img {
@@ -212,24 +213,24 @@
 	}
 
 	.menu-item svg {
-		width: 3vw;
-		height: 3vw;
+		width: 4vw;
+		height: 4vw;
 		margin-right: 1vw;
 	}
 
 	span {
-		font-size: 2vw;
+		font-size: 3.79vw;
 		margin-left: 2vw;
 	}
 
 	.nav-footer {
-		padding: 2vh 1.4vw;
+		padding: 1.87vh 3.45vw;
 		border-radius: 40vw;
 		left: 3vw;
 		text-align: center;
 		svg{
-			width: 2.5vw;
-			height: 2.5vh;
+			width: 3.5vw;
+			height: 3.5vh;
 		}
 	}
 
@@ -248,13 +249,13 @@
 	}
 
 	.notification-icon svg {
-		width: 3vw;
-		height: 3vw;
+		width: 6.145vw;
+		height: 6.145vw;
 	}
 
 	.logged-user {
-		padding: 1vh 1.5vw;
-		font-size: 2vw;
+		padding: 0.198vh 1.615vw;
+		font-size: 3.79vw;
 	}
 
 	button{
