@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Gatepax-AI/static/css/main.cc92bacb.css",
-    "main.js": "/Gatepax-AI/static/js/main.24985a67.js",
+    "main.css": "/Gatepax-AI/static/css/main.0eadf3a8.css",
+    "main.js": "/Gatepax-AI/static/js/main.d3f619b3.js",
     "static/js/453.167aa524.chunk.js": "/Gatepax-AI/static/js/453.167aa524.chunk.js",
     "static/media/outlook.png": "/Gatepax-AI/static/media/outlook.2a9ae043cd17d81ee06b.png",
     "static/media/calender.png": "/Gatepax-AI/static/media/calender.4a9ad96ce01ef96b90cf.png",
@@ -10,12 +10,12 @@
     "static/media/zoom.png": "/Gatepax-AI/static/media/zoom.6c3ed389f977d0b59075.png",
     "static/media/outlook_calender.png": "/Gatepax-AI/static/media/outlook_calender.df89cdbd411e80714771.png",
     "index.html": "/Gatepax-AI/index.html",
-    "main.cc92bacb.css.map": "/Gatepax-AI/static/css/main.cc92bacb.css.map",
-    "main.24985a67.js.map": "/Gatepax-AI/static/js/main.24985a67.js.map",
+    "main.0eadf3a8.css.map": "/Gatepax-AI/static/css/main.0eadf3a8.css.map",
+    "main.d3f619b3.js.map": "/Gatepax-AI/static/js/main.d3f619b3.js.map",
     "453.167aa524.chunk.js.map": "/Gatepax-AI/static/js/453.167aa524.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc92bacb.css",
-    "static/js/main.24985a67.js"
+    "static/css/main.0eadf3a8.css",
+    "static/js/main.d3f619b3.js"
   ]
 }
