@@ -41,7 +41,7 @@ const SideNavBar = () => {
 			<div className={isExpanded ? "side-nav-container" : "side-nav-container side-nav-container-NX"}>
 				<div className="nav-upper">
 					<div className="nav-heading">
-						<img src={logo} alt="Logo" /> {isExpanded && <span>Gatepax AI</span>}
+						<img src={logo} alt="Logo" /> { <span>Gatepax AI</span>}
 					</div>
 					{isMobile && (
 						<button className={isExpanded ? "hamburger hamburger-in" : "hamburger hamburger-out"} onClick={() => setExpandedState(!isExpanded)}>
@@ -56,7 +56,7 @@ const SideNavBar = () => {
 								to={page}
 							>
 								{icon}
-								{isExpanded && <span>{text}</span>}
+								{<span>{text}</span>}
 							</Link>
 						))}
 					</div>

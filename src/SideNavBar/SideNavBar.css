@@ -107,9 +107,10 @@
 	transition: 0.3s all;
 } */
 
-.menu-item:hover,.active-menu {
-    background-color: #006FB9;
-    color: #fff !important;
+.menu-item:hover,
+.active-menu {
+	background-color: #006FB9;
+	color: #fff !important;
 	transition: 0.3s all;
 }
 
@@ -180,22 +181,25 @@
 
 	/* Full-Width Sidebar in Mobile */
 	.side-nav-container {
-		width: 65vw;
+		width: 65%;
+		left: 0;
+		transition: 0.5s all;
 	}
 
 	.side-nav-container-NX {
-		width: 8vw;
-		left: -23vw;
+		/* width: 8vw; */
+		left: -65%;
+		transition: 0.5s all;
 	}
 
 	/* Show Hamburger Menu */
 	.hamburger {
 		display: block;
-		left: 60.9vw;
+		left: 89%;
 	}
 
 	.hamburger-out {
-		left: 21vw;
+		left: 94%;
 	}
 
 	.hamburger svg {
@@ -204,8 +208,8 @@
 	}
 
 	.nav-heading img {
-		width: 5vw;
-		height: 5vw;
+		width: 25px;
+		height: 25px;
 	}
 
 	.menu-item {
@@ -224,14 +228,15 @@
 	}
 
 	.nav-footer {
-		padding: 1.87vh 3.45vw;
+		padding: 10px;
 		border-radius: 40vw;
 		left: 3vw;
 		text-align: center;
-		bottom: 20px;
-		svg{
-			width: 3.5vw;
-			height: 3.5vh;
+		bottom: 40px;
+
+		svg {
+			width: 15px;
+			height: 15px;
 		}
 	}
 
@@ -255,11 +260,12 @@
 	}
 
 	.logged-user {
-		padding: 0.198vh 1.615vw;
-		font-size: 3.79vw;
+		padding: 2.8px 7.488px;
+		font-size: 14px;
+		margin-left: 5px;
 	}
 
-	button{
+	button {
 		font-size: 14px;
 	}
 }
